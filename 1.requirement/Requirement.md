@@ -60,7 +60,8 @@
 - Hiển thị các chức năng của hệ thống thuộc quyền admin
     + Quản lý các danh mục.
     + Quản lý sản phẩm.
-    + Quản lý đơn hàng mà khách hàng đẵ thực hiện mua hàng.
+    + Quản lý đơn hàng mà khách hàng đã thực hiện mua hàng.
+    + Quản lý đơn vị vận chuyển.
     + Tìm kiếm 
 ### 4. Quản lý doanh mục
 - Mục đích: Admin có thể thêm sửa xóa các danh mục theo nhu cầu của cửa hàng.
