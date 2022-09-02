@@ -2,7 +2,7 @@
 *Các chức năng dự kiến:*
 ## Khách hàng
 
-*Sơ đồ usecase các chức năng của khách hàng *
+*Sơ đồ usecase các chức năng của khách hàng*
 
 ![](image/1.customer-system.svg)
 
@@ -73,22 +73,22 @@
     + Quản lý đơn hàng mà khách hàng đã thực hiện mua hàng.
     + Quản lý đơn vị vận chuyển.
     + Tìm kiếm 
-### 4. Quản lý doanh mục
+### 3. Quản lý doanh mục
 - Mục đích: Admin có thể thêm sửa xóa các danh mục theo nhu cầu của cửa hàng.
 - Tại trang chủ, admin lựa chọn quản lý danh mục sản phẩm, hệ thống sẽ hiển thị các danh mục của cửa hàng, admin có thể quản lý các danh mục
     + Thêm/ sửa danh mục: tên danh mục, hình ảnh là bắt buộc không được để trống.
     + Xóa danh mục: chỉ được xóa khi chưa có sản phẩm nào thuộc danh mục đang tồn tại.
-### 5. Quản lý sản phẩm
+### 4. Quản lý sản phẩm
 - Mục đích: Admin có thể thêm sửa xóa các sản phẩm theo nhu cầu của cửa hàng.
 - Tại trang chủ, admin lựa chọn quản lý sản phẩm, hệ thống sẽ hiển thị các sản phẩm của cửa hàng, admin có thể quản lý các sản phẩm
     + Thêm/ sửa sản phẩm: tên sản phẩm, danh mục, giá, hình ảnh sản phẩm là bắt buộc không được để trống; mô tả chi tiết sản phẩm.
     + Xóa sản phẩm: sản phẩm sẽ bị xóa cả trong giỏ hàng của khách hàng.
-### 6. Quản lý đơn vị vận chuyển
+### 5. Quản lý đơn vị vận chuyển
 - Mục đích: Admin có thể thêm sửa xóa các đơn vị vận chuyển theo nhu cầu của cửa hàng.
 - Tại trang chủ, admin lựa chọn quản lý đơn vị vận chuyển, hệ thống sẽ hiển thị các đơn vị vận chuyển của cửa hàng, admin có thể quản lý các đợn vị vận chuyển
     + Thêm/ sửa đơn vị: tên đơn vị, giá tương thích cho trường hợp đơn hàng nội thành/ ngoại thành những mực này không được để thống.
     + Xóa đơn vị: chỉ xóa được các đơn vị chưa được thực hiện, nếu đơn vị đã được thực hiện thì đơn vị đó sẽ được đưa vào danh sách ngưng sử dụng, nhưng vẫ còn trong hệ thống, những đơn hàng mới sẽ không thể chọn đơn vị đó.
-### 7. Quản lý đơn hàng
+### 6. Quản lý đơn hàng
 - Mục đích: Admin có thể sửa các đơn hàng của khách hàng.
 - Tại giao diện người dùng chọn quản lý giỏ hàng, hệ thống sẽ hiển thị các đơn hàng chưa được giao của của hàng.
     + Admin có thể chỉnh sửa tình trạng của đơn hàng.
