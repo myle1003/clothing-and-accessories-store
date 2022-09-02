@@ -1,6 +1,11 @@
 # REQUIREMENTS 
 *Các chức năng dự kiến:*
 ## Khách hàng
+
+*Sơ đồ usecase các chức năng của khách hàng *
+
+![](image/1.customer-system.svg)
+
 ### 1. Đăng nhập: 
 - Mục đích: Hệ thống yêu cầu người dùng đăng nhập để có thể lưu lại giỏ hàng cho những lần đăng nhập sau.
 - Người dùng cần nhập: Email và mật khẩu.
@@ -50,6 +55,11 @@
     + Đia chỉ: không được để trống.
 - Người dùng có thể chọn quản lý đơn hàng để xem tình trạng(chờ xử lý/ đang giao/ giao hàng thành công/ đã hủy) các đơn hàng của bản thân.
 ## Admin
+
+*Sơ đồ usecase các chức năng của admin*
+
+![](image/2.admin-system.svg)
+
 ### 1. Đăng nhập: 
 - Mục đích: Hệ thống yêu cầu người dùng đăng nhập để sử dụng được các chức năng quản lý hệ thống.
 - Người dùng cần nhập: Email và mật khẩu.
