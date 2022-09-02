@@ -144,7 +144,7 @@
 
 ![](image/7.deliver.svg)
 
-## 7. Quản lý đơn hàng
+## 8. Quản lý đơn hàng
 Chức năng này chỉ thực hiện được khi người dùng phải đăng nhập.
 ### Khách hàng
 - Tại trang chủ nhấn chọn quản lý hàng.
