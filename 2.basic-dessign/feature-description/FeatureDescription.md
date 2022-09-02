@@ -65,7 +65,7 @@
 - Hệ thống sẽ hiển thị các danh mục của cửa hàng.
     + Người dùng nhấn chọn thêm/ sửa danh mục.
     + Hệ thống chuyển đến trang thêm/sửa danh mục và hiển thị form thêm/sửa danh mục
-        * Người dùng nhập thông tin vào form: tên danh mục( yêu cầu không được để trống, và chưa tồn tại trong hệ thống).
+        * Người dùng nhập thông tin vào form: tên danh mục( yêu cầu không được để trống, và chưa tồn tại trong hệ thống), hình ảnh (không được để trống).
     + Người dùng chọn xóa danh mục
     + Hệ thống sẽ kiểm tra xem đã có sản phẩm nào thuộc danh mục này chưa
         * Nếu đã tồn tại, thông báo tồn tại sản phẩm thuộc danh mục này, nên không thể xóa danh mục.

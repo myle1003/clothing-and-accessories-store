@@ -76,7 +76,7 @@
 ### 4. Quản lý doanh mục
 - Mục đích: Admin có thể thêm sửa xóa các danh mục theo nhu cầu của cửa hàng.
 - Tại trang chủ, admin lựa chọn quản lý danh mục sản phẩm, hệ thống sẽ hiển thị các danh mục của cửa hàng, admin có thể quản lý các danh mục
-    + Thêm/ sửa danh mục: tên danh mục là bắt buộc không được để trống.
+    + Thêm/ sửa danh mục: tên danh mục, hình ảnh là bắt buộc không được để trống.
     + Xóa danh mục: chỉ được xóa khi chưa có sản phẩm nào thuộc danh mục đang tồn tại.
 ### 5. Quản lý sản phẩm
 - Mục đích: Admin có thể thêm sửa xóa các sản phẩm theo nhu cầu của cửa hàng.
