@@ -1,13 +1,13 @@
 ## 1. Đăng nhập: 
-- Khi chưa thực hiện đăng nhập, người dùng có thể thực hiện được các chức năng trừ chức năng của admin, nhưng người dùng không thể quay lại xem giỏ hàng và quản lý đơn hàng nếu chưa đăng nhập mà thoát khỏi hệ thống.
-- Hiển thị liên kết đến trang đăng ký nếu người dùng chưa có tài khoản chọn đăng ký tài khoản.
-- Hệ thống yêu cầu người dùng nhập username, password và nhấn đăng nhập 
+- Giúp người dùng có thể thực hiện các chức năng của hệ thống
+- Sau khi người dùng nhấn chọn đăng nhập
+- Hệ thống yêu cầu người dùng nhập email, password và nhấn đăng nhập 
     + Password sẽ được ẩn
-- Hệ thống sẽ kiểm tra username và password đã được nhập chưa?
-    + Nếu chưa nhập đủ thì thông báo cần nhập đầy đủ username, password
-    + Nếu đã nhập đủ thì kiểm tra username và password có tồn tại trong database không?
+- Hệ thống sẽ kiểm tra email và password đã được nhập chưa?
+    + Nếu chưa nhập đủ thì thông báo cần nhập đầy đủ email, password
+    + Nếu đã nhập đủ thì kiểm tra email và password có tồn tại trong database không?
         * Có thì lưu thông tin đăng nhập và chuyển đến trang chủ tương ứng với phân quyền truy cập của tài khoản.
-        * Sai thì thông báo username và password không đúng cần nhập lại.
+        * Sai thì thông báo email và password không đúng cần nhập lại.
 
 *Sơ đồ tuần tự chức năng đăng nhập*
 
@@ -15,12 +15,14 @@
 
 ## 2. Đăng ký:
 - Người dùng nhấn chọn đăng ký.
-- Hệ thống sẽ hiện form đăng ký yêu cầu người dùng nhập 
-    + Tên người dùng: Yêu cầu không được để trống 
-    + Mật khẩu: Yêu cầu không được để trống 
-    + Email: Yêu cầu đúng form của email và không được để trống. 
+- Hệ thống sẽ hiện form đăng ký yêu cầu người dùng nhập
+    + email: Yêu cầu đúng form của email và không được để trống. 
+    + name: Yêu cầu không được để trống 
+    + password: Yêu cầu không được để trống 
+    + phone
+    + address
 - Nhấn nút đăng ký hệ thống
-    + Kiểm tra user đã tồn tại chưa, nếu tồn tại rồi thì báo lỗi và yêu cầu nhập lại.
+    + Kiểm tra email đã tồn tại chưa, nếu tồn tại rồi thì báo lỗi và yêu cầu nhập lại.
     + Nếu đã kiểm tra đúng thông tin, thực hiện tạo tài khoản, lưu thông tin và chuyển đến trang chủ.
 
 *Sơ đồ tuần tự chức năng đăng ký*
@@ -85,7 +87,10 @@
     + Danh mục: luôn có.
     + Hình ảnh: luôn có.
     + Giá: luôn có.
-    + Mô tả: có thể có hoặc không.
+    + Màu sắc: luôn có
+    + Size: luôn có
+    + Đánh giá: có thể có hoặc không.
+    + Bình luận:có thể có hoặc không.
 
 *Sơ đồ tuần tự chức năng xem sản phẩm của khách hàng*
 
@@ -108,6 +113,17 @@
 *Sơ đồ tuần tự chức năng quản lý sản phẩm của admin*
 
 ![](image/5.product-admin.svg)
+
+## 5. Tìm kiếm sản phẩm 
+### Khách hàng
+- Tại thanh tìm kiếm, nhập tên sản phẩm muốn tìm.
+- Hệ thống sẽ hiển thị danh sách các sản phẩm có tên gần giống thuộc danh mục khách hàng đang đứng.
+- Nhấn chọn sản phẩm.
+- Hệ thống sẽ hiển thị thông tin chi tiết của sảng phẩm đó.
+
+*Sơ đồ tuần tự chức năng xem sản phẩm của khách hàng*
+
+![](image/5.search.svg)
 
 ## 6. Quản lý giỏ hàng
 ### Khách hàng
